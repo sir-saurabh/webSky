@@ -5,7 +5,7 @@ const password = document.getElementById("password");
 const phoneNumber = document.getElementById("phoneNumber");
 const gender = document.registration;
 const language = document.getElementById("language");
-const zipcode = document.getElementById("zipcode");
+
 
 // function for form varification
 function formValidation() {
@@ -44,11 +44,11 @@ function formValidation() {
     alert("Please select your language!")
     return false;
   }
-  // checking zip code
-  if (!zipcode.value.match(/^[0-9]{6}$/)) {
-    alert("Zip code must be 6 characters long number!");
-    zipcode.focus();
-    return false;
-  }
+
+  
+
+
+
+
   return true;
 }
